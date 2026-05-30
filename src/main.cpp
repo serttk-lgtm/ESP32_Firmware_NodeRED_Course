@@ -55,13 +55,13 @@ const float DEFAULT_WEATHER_LAT = 8.4304;   // Used when weather city lookup fai
 const float DEFAULT_WEATHER_LON = 99.9631;  // Used when weather city lookup fails
 
 // ===== MQTT Configuration =====
-//const char* MQTT_BROKER = "192.168.1.6"; // Local MQTT broker host (Mosquitto Docker)
-//const int MQTT_PORT = 1883;
+const char* MQTT_BROKER = "192.168.1.6"; // Local MQTT broker host (Mosquitto Docker)
+const int MQTT_PORT = 1883;
 
 
-const char* MQTT_BROKER = "broker.hivemq.com";  // HiveMQ free public broker
-const int MQTT_PORT = 1883;                      // MQTT port (non-TLS)
-const char* MQTT_BOARD_ID = "esp32-TK-01";  // Unique board identifier (change for each board)
+//const char* MQTT_BROKER = "broker.hivemq.com";  // HiveMQ free public broker
+//const int MQTT_PORT = 1883;                      // MQTT port (non-TLS)
+const char* MQTT_BOARD_ID = "esp32-devkit-tk";  // Unique board identifier (change for each board)
 
 
 
